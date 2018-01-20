@@ -4,7 +4,7 @@ from cm import register_source, getLogger, Base
 register_source(name='acid',
                 abbreviation='acid',
                 scopes=['clojure'],
-                word_pattern=r'[\w!$%&*+/:<=>?@\^_~\-\.#]+',
+                word_pattern=r'[\w!$%&*+/:<=>?@\^_~\.#]+',
                 cm_refresh_patterns=[r'/'],
                 priority=9)
 
